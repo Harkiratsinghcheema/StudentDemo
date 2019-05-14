@@ -15,8 +15,14 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class StudentDemo {
 
     private String name;
-
+    private int id;
     //constructor
+    public void setId(int id){
+        this.id=id;
+    }
+    public int getId(){
+        return this.id;
+    }
     public StudentDemo(String givenName)
     {
         name=givenName;
