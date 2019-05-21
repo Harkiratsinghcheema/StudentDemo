@@ -9,7 +9,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
  ** A class to model Student Objects
  * each student has: a name (first and last name)
  * each student can: say their name (getName)
-
+ 
  * @author Sivagama
  */
 public class StudentDemo {
@@ -40,6 +40,7 @@ public class StudentDemo {
     public void setName(String givenName) {
         name = givenName;
     }
+    System.out.println("Hi!");
     
     
 }
